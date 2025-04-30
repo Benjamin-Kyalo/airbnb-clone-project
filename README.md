@@ -71,3 +71,26 @@ A minimalist clone of AirBnB’s back-end, built for learning REST APIs and data
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+# Database Design
+Entities & Key Fields
+
+User
+
+id (PK), email, hashed_password, first_name, last_name
+
+Property
+
+id (PK), owner_id (FK → User), title, address, price_per_night
+
+Booking
+
+id (PK), user_id (FK → User), property_id (FK → Property), start_date, end_date
+
+Review
+
+id (PK), booking_id (FK → Booking), rating, comment, created_at
+
+Payment
+
+id (PK), booking_id (FK → Booking), amount, payment_method, status
