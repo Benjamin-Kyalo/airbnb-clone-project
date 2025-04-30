@@ -94,3 +94,32 @@ id (PK), booking_id (FK → Booking), rating, comment, created_at
 Payment
 
 id (PK), booking_id (FK → Booking), amount, payment_method, status
+
+# Feature Breakdown
+- User Management
+
+Sign up, log in/out, and profile updates (password reset, email).
+
+- Property Management
+  
+CRUD on listings: create new properties, edit details, delete listings.
+
+- Booking System
+  
+Search availability, book a stay, view/cancel bookings.
+
+- Reviews & Ratings
+  
+After checkout, users can leave a rating and text review.
+
+- Payments
+  
+Securely process payments (e.g., via Stripe) and track transaction status.
+
+
+
+
+
+
+
+
