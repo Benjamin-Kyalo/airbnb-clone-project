@@ -15,3 +15,49 @@ A minimalist clone of AirBnB’s back-end, built for learning REST APIs and data
 - Database: MySQL or PostgreSQL  
 - Version Control: Git & GitHub  
 
+
+# Team Roles
+1. Backend Developer
+- Writes its algorithms and business logic.
+- Devises the overall app architecture.
+- Writes its algorithms and business logic.
+
+2. Database Administrator (DBA)
+- Models the data schema, manages migrations, optimizes queries, and ensures data integrity.
+
+3. Business analyst (BA)
+- Understands customer’s business processes
+- Translates customer business needs into requirements
+
+4. Product owner (PO)
+- Holds responsibility for a product vision and evolution
+- Makes sure the final product meets customer requirements
+
+5. Project manager (PM)
+- Makes sure a product or its part is delivered on time and within budget
+- Manages and motivates the software development team
+
+6. UI/UX designer
+- Transforms a product vision into user-friendly designs
+- Creates user journeys for the best user experience and highest conversion rates
+
+7. Software architect
+- Designs a high-level software architecture
+- Selects appropriate tools and platforms to implement the product vision
+- Sets up code quality standards and performs code reviews
+
+8. Software developer
+- Engineers and stabilizes the product
+- Solves any technical problems emerging during the development lifecycle
+
+9. Quality assurance (QA) engineer
+- Makes sure an application performs according to requirements
+- Spots functional and non-functional defects
+
+10. Test automation engineer
+- Designs a test automation ecosystem
+- Writes and maintains test scripts for automated testing
+  
+11. DevOps engineer
+- Facilitates cooperation between development and operations teams
+- Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
