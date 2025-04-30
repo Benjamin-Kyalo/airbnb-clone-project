@@ -132,7 +132,20 @@ Throttle endpoints to prevent abuse (e.g., max 100 requests/hour).
 
 HTTPS everywhere, hashed passwords (bcrypt/Argon2), input validation to avoid injections.
 
+# CI/CD Pipeline
+- Continuous Integration
+  
+On every push → run linting, unit tests, and security scans via GitHub Actions.
 
+- Continuous Deployment
+
+On passing CI → build Docker image, push to registry, deploy to staging/production.
+
+- Tools
+
+GitHub Actions for workflows
+
+Docker for container builds
 
 
 
