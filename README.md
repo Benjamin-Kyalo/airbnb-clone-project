@@ -116,6 +116,21 @@ After checkout, users can leave a rating and text review.
   
 Securely process payments (e.g., via Stripe) and track transaction status.
 
+# API Security
+Authentication
+JSON Web Tokens (JWT) to verify user identity on every request.
+
+- Authorization
+  
+Role-based access: only owners can modify their own listings; only bookers can cancel their bookings.
+
+- Rate Limiting
+  
+Throttle endpoints to prevent abuse (e.g., max 100 requests/hour).
+
+- Data Protection
+
+HTTPS everywhere, hashed passwords (bcrypt/Argon2), input validation to avoid injections.
 
 
 
